@@ -91,4 +91,5 @@ class Application:
             menuHandler.handle(key)
 
 app = Application()
-app.start()```
+app.start()
+```
