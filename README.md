@@ -65,7 +65,7 @@ class Application:
         input('Press any key')
 
     def sayGoodBye(self):
-        print('Good bye!')
+        print('Goodbye!')
         input('Press any key')
 
     def start(self):
