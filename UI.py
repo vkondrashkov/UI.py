@@ -15,11 +15,7 @@ class Key:
     arrowRight = 77
     interruptKey = 3
     executeKey = 13
-
-class MenuType:
-    listType = 'listType'
-    tableType = 'tableType'
-
+    
 class View:
     __metaclass__ = ABCMeta
     @abstractmethod
