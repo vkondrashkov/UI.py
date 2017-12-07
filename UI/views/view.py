@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 class View:
     __metaclass__ = ABCMeta
+    
     @abstractmethod
     def __init__(self, horizontalOffset=0, verticalOffset=0):
         if horizontalOffset > 0:
