@@ -2,7 +2,7 @@ from UI.views.view import View
 from math import ceil
 
 class Menu(View):
-    def __init__(self, *args, itemsInRow = 1, horizontalOffset=0, verticalOffset=0):
+    def __init__(self, *args, itemsInRow=1, horizontalOffset=0, verticalOffset=0):
         View.__init__(self, horizontalOffset, verticalOffset)
         self.menuItems = []
         self.itemsInRow = itemsInRow

@@ -11,6 +11,6 @@ class Button(Text, Command):
     def draw(self):
         Text.draw(self)
         if self.isSelected:
-            print('> {} '.format(self.text), end='')
+            print('> {}'.format(self.text), end='')
         else:
-            print('  {} '.format(self.text), end='')
+            print('  {}'.format(self.text), end='')
